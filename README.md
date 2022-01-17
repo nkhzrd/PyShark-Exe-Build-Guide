@@ -1,5 +1,5 @@
 # PyShark Exe Build Guide
-Как собрать скрипт Python в exe, если вы используете модуль PyShark / How to build Python Script to exe if you are using PyShark module
+##### Как собрать скрипт Python в exe, если вы используете модуль PyShark / How to build Python Script to exe if you are using PyShark module
 
 Приветствую всех, здесь я покажу вам, как собрать код на языке Python в exe файл.
 Лично столкнулся с проблемой при решении задачи по обработке pcap-файла. Считаю, что может быть полезным для программистов, которые встретят подобную проблему.
@@ -55,8 +55,8 @@ hiddenimports=['py._path.local','py._vendored_packages.iniconfig','pyshark.confi
   WARNING: The output directory <path-to-script> and ALL ITS CONTENTS will be REMOVED! Continue? (y/N)
   ```
   
-  Далее, переходим в каталог dist в директории, где находится проект, и копируем туда папку pyshark. (Папка находится в приложенном архиве)
-  В файле config.ini необходимо изменить путь до tcpdump и tshark, если они были выставлены не по умолчанию при установке. (Next, go to the dist directory in the directory where   the project is located and copy the pyshark folder there. (The folder is in the attached archive)
+  Далее, переходим в каталог dist в директории, где находится проект, и копируем туда папку pyshark. (Папка находится в приложенном архиве).
+  В файле config.ini необходимо изменить путь до tcpdump и tshark, если они были выставлены не по умолчанию при установке. (Next, go to the dist directory in the directory where   the project is located and copy the pyshark folder there. (The folder is in the attached archive).
   In the config.ini file, you need to change the path to tcpdump and tshark if they were not set by default during installation.)
   ```c
   [tshark]
@@ -81,7 +81,7 @@ dumpcap_path = C:\Program Files(x86)\Wireshark\dumpcap.exe
   
 
 ## AUTHOR
-  Vladislav Kotletkin
-  github.com/nkhzrd
-  t.me/mrcnsldr
+    Vladislav Kotletkin (t.me/mrcnsldr)
+    Vitaliy Bondarenko (t.me/medoook)
+
   
