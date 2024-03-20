@@ -78,10 +78,6 @@ dumpcap_path = C:\Program Files(x86)\Wireshark\dumpcap.exe
 ./dist/<name-of-script>/<name-of-script>.exe
 ```
 [pyshark.zip](https://github.com/nkhzrd/Python-Pyshark-Exe-Guide/files/7882749/pyshark.zip)
-  
 
-## AUTHOR
-    Vladislav Kotletkin (t.me/mrcnsldr)
-    Vitaliy Bondarenko (t.me/medoook)
 
   
